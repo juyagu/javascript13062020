@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de SuperHéroes</h1>
+        <div class="form-row">
+            <div class="form-group col-6">
+                <label for="">Seleccione un grupo de superhéroes</label>
+                <select name="grupo" id="grupo" class="form-control">
+                    <option value="1">DC</option>
+                    <option value="2">X Men</option>
+                    <option value="3">Avengers</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group" id="listado">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="listado.js"></script>
+</body>
+</html>
